@@ -1,0 +1,60 @@
+/* Reset CSS */
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   
+   body {
+     font-family: Arial, sans-serif;
+     background-image: url('background.jpg');
+     background-size: cover;
+     background-position: center;
+   }
+   
+   header {
+     background-color: rgba(255, 165, 0, 0.8);
+     padding: 20px 0;
+     color: white;
+   }
+   
+   .container {
+     width: 80%;
+     margin: auto;
+   }
+   
+   h1 {
+     font-size: 2.5rem;
+   }
+   
+   nav ul {
+     list-style-type: none;
+   }
+   
+   nav ul li {
+     display: inline;
+     margin-right: 20px;
+   }
+   
+   nav ul li a {
+     color: white;
+     text-decoration: none;
+     font-size: 1.2rem;
+   }
+   
+   section {
+     padding: 50px 0;
+   }
+   
+   .container h2 {
+     font-size: 2rem;
+     margin-bottom: 20px;
+   }
+   
+   footer {
+     background-color: rgba(255, 165, 0, 0.8);
+     color: white;
+     text-align: center;
+     padding: 10px 0;
+   }
+   

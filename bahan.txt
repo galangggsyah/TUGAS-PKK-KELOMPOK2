@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>TUGAS PKK KELOMPOK II</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header class="header">
+          <a href="" class="logo">Kelompok II</a>
+
+          <div class="bx bx-menu" id="menu-icon"></div>
+
+          <nav class="navbar" id="navbar">
+               <a href="#home" class="active">Beranda</a>
+               <a href="#about">Tentang</a>
+               <a href="#gallery">Gallery</a>
+               <a href="#contact">Kontak</a>
+
+               <span class="active-nav"></span>
+          </nav>
+     </header>
+
+     <!-- HEADER END -->
+
+
+
+      <!-- ----------------------------------------------------------------------- -->
+     <!--                           home section design                           -->
+     <!-- ----------------------------------------------------------------------- -->
+     <section class="home" id="home">
+          <div class="home-content">
+               <h1>Assalamu'alaikum <br><span>Hai, Perkenalkan Kami dari kelompok II</span></h1>
+               <p>Disini kami ingin memperlihatkan hasil project PKK kami, Terimakasih sudah mau untuk berkunjung! Sebelumnya, silahkan berikan kritik dan saran anda terhadap website kami :)</p>
+               <div class="btn-box">
+                    <a href="#about" class="btn">Lihat Selengkapnya...</a>
+               </div>
+          </div>
+<!-- 
+          <div class="home-sci">
+               <a href="https://wa.me/message/6289698941254"><i class='bx bxl-whatsapp'></i></a>
+               <a href="https://www.instagram.com/galanggg.s_"><i class='bx bxl-instagram'></i></a>
+               <a href="https://www.tiktok.com/@pejuang.istiqamah_"><i class='bx bxl-tiktok'></i></a>
+               <a href="https://github.com/galangggsyah"><i class='bx bxl-github'></i></a>
+          </div>
+
+          <div class="home-imgHover"></div> -->
+     </section>
+     <!-- ----------------------------------------------------------------------- -->
+     <!--                       home section design ENDEDD                        -->
+     <!-- ----------------------------------------------------------------------- -->
+
+
+
+
+     <section class="about" id="about">
+          <h2 class="heading">Tentang <br><span>SMK PADJADJARAN JATINANGOR</span></h2>
+
+          <div class="about-img">
+               <img src="/galeri/pdj.jpg" alt="">
+               <span class="circle-spin"></span>
+          </div>
+
+          <div class="about-content">
+               <h3>SEJARAH DAN PROFILE SMK PADJADJARAN JATINANGOR</h3>
+               <p>SMK PADJADJARAN didirikan pada tahun 2010, berawal dari lintasan keinginan yang kuat untuk memajukan anak-anak jatinangor. Keinginan kuat itu Alhamdulilah telah terwujud dimana SMK Padjadjaran sebagai wadah perbaikan peradaban bangsa Indonesia. Sekolah kecil namun berkualitas yang tak menyampingkan nilai-nilai agama.</p>
+
+               <!-- <div class="btn-box btns">
+                    <a href="https://wa.me/message/6289698941254" class="btn">Pelajari Selengkapnya</a>
+               </div> -->
+          </div>
+     </section>
+     <section class="visi" id="visi">
+          <h2 class="heading">VISI</h2>
+          <div class="about-content">
+               <h3>Akhlak Cemerlang Prestasi Gemilang</h3>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <h2 class="heading">MISI</h2>
+          <div class="about-content">
+               <h3>1. Menanamkan keimanan dan ketaqwaan kepada tuhan yang maha Esa</h3>
+               <h3>2. Menjadikan SMK Teknologi plus Padjadjaran sebagai pilihan utama masyarakat.</h3>
+               <h3>3. Menyelenggarakan pendidikan yang berkualitas efektif</h3>
+               <h3>4. Menghasilkan tenaga kerja profesional di bidang teknologi guna memenuhi tuntutan DU dan DI.</h3>
+               <h3>5. Membekali Peserta didik dengan kemampuan untuk mengembangkan diri.</h3>
+          </div>
+          <br>
+          <br>
+     </section>
+     <section class="about" id="about">
+          <h2 class="heading">BIDANG KEAHLIAN DI SMK PADJADJARAN</h2>
+          <h3>Teknologi Komputer & Jaringan (TKJ)</h3>
+          <p>A. MIKROTIK</p>
+          <p>B. VIDEOGRAFI</p>
+          <p>C. FOTOGRAFI</p>
+          <p>D. PODCAST</p>
+          <h3>OTOMASISASI DAN TATA KELOLA PERKANTORAN (OTKP)</h3>
+          <p>A. KOMPUTER AKUNTASI</p>
+          <p>B. KOMPUTER PERKANTORAN</p>
+          <p>C. KOMPUTER BISNIS DARING</p>
+          <p>D. KOMPUTER DESIGN GRAFIS</p>
+     </section>
+</body>
+</html>
+
+
+Tolong update code ini sebagus mungkin menggunakan framework tailwind

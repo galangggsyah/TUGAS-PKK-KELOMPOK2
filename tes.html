@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS PKK KELOMPOK II</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="#" class="text-2xl font-bold">Kelompok II</a>
+            <button class="block md:hidden text-3xl text-white focus:outline-none" id="menu-icon">&#9776;</button>
+            <nav class="hidden md:flex space-x-4">
+                <a href="#home" class="text-lg">Beranda</a>
+                <a href="#about" class="text-lg">Tentang</a>
+                <a href="#gallery" class="text-lg">Gallery</a>
+                <a href="#contact" class="text-lg">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="bg-gray-100 py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-3xl font-bold mb-4">Assalamu'alaikum</h1>
+            <p class="text-lg text-gray-700 mb-8">Hai, Perkenalkan Kami dari kelompok II. Disini kami ingin memperlihatkan hasil project PKK kami. Terimakasih sudah mau untuk berkunjung! Sebelumnya, silahkan berikan kritik dan saran anda terhadap website kami :)</p>
+            <a href="#about" class="bg-gray-800 text-white py-2 px-6 rounded-full inline-block hover:bg-gray-700">Lihat Selengkapnya...</a>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="py-20">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            <div class="w-full md:w-1/2 mb-8 md:mb-0">
+                <h2 class="text-3xl font-bold mb-4">Tentang SMK PADJADJARAN JATINANGOR</h2>
+                <p class="text-lg text-gray-700 mb-4">SMK PADJADJARAN didirikan pada tahun 2010, berawal dari lintasan keinginan yang kuat untuk memajukan anak-anak jatinangor. Keinginan kuat itu Alhamdulilah telah terwujud dimana SMK Padjadjaran sebagai wadah perbaikan peradaban bangsa Indonesia. Sekolah kecil namun berkualitas yang tak menyampingkan nilai-nilai agama.</p>
+            </div>
+            <div class="w-full md:w-1/2">
+                <img src="/galeri/pdj.jpg" alt="SMK PADJADJARAN" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- VISI & MISI SECTION -->
+    <section id="visi" class="py-20 bg-gray-100">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-8">VISI</h2>
+            <p class="text-lg text-gray-700 mb-8">Akhlak Cemerlang Prestasi Gemilang</p>
+            <h2 class="text-3xl font-bold mb-8">MISI</h2>
+            <ul class="text-lg text-gray-700 mb-8">
+                <li class="mb-2">Menanamkan keimanan dan ketaqwaan kepada tuhan yang maha Esa</li>
+                <li class="mb-2">Menjadikan SMK Teknologi plus Padjadjaran sebagai pilihan utama masyarakat.</li>
+                <li class="mb-2">Menyelenggarakan pendidikan yang berkualitas efektif</li>
+                <li class="mb-2">Menghasilkan tenaga kerja profesional di bidang teknologi guna memenuhi tuntutan DU dan DI.</li>
+                <li>Membekali Peserta didik dengan kemampuan untuk mengembangkan diri.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 TUGAS PKK KELOMPOK II. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript to toggle the mobile menu -->
+    <script>
+        document.getElementById('menu-icon').addEventListener('click', function() {
+            var navbar = document.getElementById('navbar');
+            if (navbar.classList.contains('hidden')) {
+                navbar.classList.remove('hidden');
+            } else {
+                navbar.classList.add('hidden');
+            }
+        });
+    </script>
+</body>
+</html>
